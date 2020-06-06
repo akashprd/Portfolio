@@ -46,7 +46,7 @@
         margin-top: 10%;
         position: absolute;
         margin-left: 60%;
-        letter-spacing: 1px;
+        letter-spacing: 5px;
     }
     .ul-design{
         position: absolute;
@@ -77,9 +77,10 @@
         margin-top: 31%;
         margin-left: 60%;
         text-align: center;
-        font-size: 18px;
-        line-height: 48px;
-        font-family: monospace;
+        font-size: 15px;
+        letter-spacing: 2px;
+        line-height: 50px;
+        font-family: 'Roboto', sans-serif;
         border: none;
         border-radius: 3px;
         cursor: pointer;
@@ -100,7 +101,7 @@
         font-size: 30px;        
     }
     .fb-icon{
-        margin-right: 5px;
+        margin-right: 6px;
         color: black;
     }
     .fb-icon:hover{
@@ -108,7 +109,7 @@
         color: #3b5998;
     }
     .insta-icon{
-        margin-right: 5px;
+        margin-right: 6px;
         color: black;
     }
     .insta-icon:hover{
@@ -116,7 +117,7 @@
         color: #C13584;
     }
     .twitter-icon{
-        margin-right: 5px;
+        margin-right: 6px;
         color: black;
     }
     .twitter-icon:hover{
