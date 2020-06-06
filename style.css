@@ -1,0 +1,397 @@
+@media screen and (min-width: 1024px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .m-container{
+        height: 100vh;
+        width: 100vw;
+        background-color: white;
+    }
+    /* .main-a{
+
+    } */
+    .blur-bg{
+        width: 51%;
+        height: 70%;
+        background-color: lightgray;
+        opacity: 0.3;
+        margin-top: 8.5%;
+        margin-left: 5%;
+        position: absolute;
+    }
+    .my-img{
+        width: 27vw;
+        height: 90%;
+        margin-top: 3%;
+        margin-left: 16.5%;
+        background-color: white;
+        position: absolute;
+        z-index: 1;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+        //border: 1px solid black;
+    }
+    img{
+        width: 95%;
+        height: 97%;
+        padding: 10px;
+    }
+    /* .main-b{
+
+    } */
+    .my-name{
+        font-size: 35px;
+        font-family: 'Roboto', sans-serif;
+        font-size-adjust: 0.4;
+        margin-top: 10%;
+        position: absolute;
+        margin-left: 60%;
+        letter-spacing: 1px;
+    }
+    .ul-design{
+        position: absolute;
+        margin-top: 10%;
+        margin-left: 60%;
+        font-size: 45px;
+        font-weight: bold;
+        color: orangered;
+    }
+    .my-info{
+        position: absolute;
+        margin-top: 16%;
+        margin-left: 60%;
+        margin-right: 6%;
+        font-size: 20px;
+        font-family: monospace;
+        line-height: 1.5;
+        letter-spacing: 1px;
+        color: black;
+
+    }
+    .project-button{
+        position: absolute;
+        display: block;
+        height: 50px;
+        width: 270px;
+        background-color: black;
+        margin-top: 31%;
+        margin-left: 60%;
+        text-align: center;
+        font-size: 18px;
+        line-height: 48px;
+        font-family: monospace;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+    .project-button:hover{
+        background-color: purple;
+        transition: all 0.35s;
+    }
+    .project-link{
+        color: white;
+        text-decoration: none;
+    }
+    .icons-p{
+        position: absolute;
+        display: flex;
+        margin-left: 60%;
+        margin-top: 38%;
+        font-size: 30px;        
+    }
+    .fb-icon{
+        margin-right: 5px;
+        color: black;
+    }
+    .fb-icon:hover{
+      transition: all .35s;
+        color: #3b5998;
+    }
+    .insta-icon{
+        margin-right: 5px;
+        color: black;
+    }
+    .insta-icon:hover{
+      transition: all .35s;
+        color: #C13584;
+    }
+    .twitter-icon{
+        margin-right: 5px;
+        color: black;
+    }
+    .twitter-icon:hover{
+      transition: all .35s;
+        color: #00acee;
+    }
+    .whatsapp-icon{
+      color: black;
+    }
+    .whatsapp-icon:hover{
+      transition: all .35s;
+      color: #25d366;
+    }
+    .s-container{
+        height: 100vh;
+        width: 100vw;
+        background-color: papayawhip;
+    }    
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    
+}
+
+@media screen and (max-width: 767px){
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+    .m-container{
+        height: 118vh;
+        width: 100vw;
+        background-color: white;
+    }
+    .main-a{
+        
+    }
+    .blur-bg{
+        height: 50vh;
+        width: 100vw;
+        background-color: lightgray;
+        opacity: 0.3;
+        margin-top: 10vh;
+        position: absolute;
+    }
+    .my-img{
+        height: 65vh;
+        width: 86vw;
+        background-color: white;
+        position: absolute;
+        margin-left: 7vw;
+        margin-top: 3vh;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    }
+    img{
+        height: 100%;
+        width: 100%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    }
+    .main-b{
+        
+    }
+    .my-name{
+        position: absolute;
+        margin-left: 4vh;
+        margin-top: 72vh;
+        font-weight: bold;
+        font-size: 26px;
+        font-family: 'Oswald', sans-serif;
+        letter-spacing: 4px;        
+    }
+    .ul-design{
+        position: absolute;
+        margin-left: 4vh;
+        margin-top: 71vh;
+        font-size: 50px;
+        font-weight: bold; 
+        color: orangered;
+        border-radius: 15px;
+    }
+    .my-info{
+        position: absolute;
+        margin: 80vh 6vh 0 4vh;
+        font-size: 16px;
+        font-weight: 500;
+        word-spacing: 2px;
+        font-family: 'Quicksand', sans-serif;
+        line-height: 1.8;
+
+    }
+    /* button */
+    .project-button{
+        margin-left: 4vh;
+        margin-top: 101vh;
+        position: absolute;
+
+    }
+    .project-link{
+        display: block;
+        height: 6vh;
+        width: 60vw;
+        background-color: black;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 6vh;
+        font-family: 'Quicksand', sans-serif;
+        cursor: pointer;
+        border: none;
+        border-radius: 3px;
+        letter-spacing: 2px;
+    }
+    .icons-p{
+        position: absolute;
+        display: flex;
+        margin-left: 4vh;
+        margin-top: 111vh;
+        font-size: 8vw;
+    }
+    .fb-icon{
+        margin-right: 7px;
+        color: black;
+    }
+    .fb-icon:hover{
+      transition: all .35s;
+        color: #3b5998;
+    }
+    .insta-icon{
+        margin-right: 7px;
+        color: black;
+    }
+    .insta-icon:hover{
+      transition: all .35s;
+        color: #C13584;
+    }
+    .twitter-icon{
+        margin-right: 7px;
+        color: black;
+    }
+    .twitter-icon:hover{
+      transition: all .35s;
+        color: #00acee;
+    }
+    .whatsapp-icon{
+      color: black;
+    }
+    .whatsapp-icon:hover{
+      transition: all .35s;
+      color: #25d366;
+    }
+
+    .s-container{
+        height: 185vh;
+        width: 100vw;
+        background-color: greenyellow;
+    }
+    .cur-project{
+        position: absolute;
+        margin-top: 3vh;
+        margin-left: 4vh;
+        margin-right: 20vh;
+        font-size: 26px;
+        font-weight: bold;
+        font-family: 'Oswald', sans-serif;
+        letter-spacing: 2px;
+        line-height: 1.2;
+    }
+    .design-2{
+        position: absolute;
+        margin-left: 4vh;
+        margin-top: 6vh;
+        font-size: 50px;
+        font-weight: bold;
+        //color: blueviolet;
+    }
+    .second-a{
+        position: absolute;
+        height: 50vh;
+        width: 80vw;
+        margin-left: 4vh;
+        margin-top: 18vh;
+        //border: 1px solid black;
+    }
+    .project-img{
+        position: absolute;
+        height: 15vh;
+        width: 15vh;
+        //border: 1px solid black;
+    }
+    .project-details{
+        position: absolute;
+        height: 30vh;
+        width: 77vw;
+        margin-top: 20vh;
+        //border: 1px solid black;
+    }
+    .details-title{
+        position: relative;
+        height: 4vh;
+        width: 50vw;
+        //border: 1px solid black;
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        line-height: 30px;
+        letter-spacing: 1px;
+    }
+    .details-con{
+        position: relative;
+        height: 18vh;
+        width: 70vw;
+        margin-top: 1vh;
+        //border: 1px solid black;
+        line-height: 1.5;
+        font-size: 16px; 
+        font-family: 'Quicksand', sans-serif;   
+    }
+    .details-link{
+        display: flex;
+        position: relative;
+        height: 4vh;
+        width: 50vw;
+        margin-top: 1vh;
+        //border: 1px solid black;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 1.5;
+        font-family: 'Roboto', sans-serif;
+        cursor: pointer;
+    }
+    .details-link:hover{
+        color: orangered;
+    }
+    .ioni{
+        //border: 1px solid black;
+        width: 5vw;
+        height: 4vh;
+        line-height: 31px;
+        margin-left: 1vh;
+        font-size: 15px;
+    }
+    .second-b{
+        position: absolute;
+        height: 50vh;
+        width: 80vw;
+        margin-left: 4vh;
+        margin-top: 74.5vh;
+        //border: 1px solid black;        
+    }
+    .second-c{
+        position: absolute;
+        height: 50vh;
+        width: 80vw;
+        margin-left: 4vh;
+        margin-top: 131vh;
+        //border: 1px solid black;        
+    }
+    .t-container{
+        height: 60vh;
+        width: 100vw;
+        background-color: #fff;                
+    }
+    /* .third-a{
+        position: absolute;
+        height: 50vh;
+        width: 80vw;
+        margin-left: 4vh;
+        margin-top: 3vh;
+        border: 1px solid black; 
+    } */
+    .f-container{
+        height: 25vh;
+        width: 100vw;
+        background-color: black;
+    }
+}
