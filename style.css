@@ -132,9 +132,8 @@
       color: #25d366;
     }
     .s-container{
-        height: 100vh;
-        width: 100vw;
-        background-color: papayawhip;
+        
+        display: none;
     }    
 }
 
