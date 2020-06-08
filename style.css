@@ -39,8 +39,9 @@
     } */
     .my-name{
         font-size: 35px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-size-adjust: 0.4;
+        font-weight: 700;
         margin-top: 10%;
         position: absolute;
         margin-left: 60%;
@@ -48,7 +49,7 @@
     }
     .ul-design{
         position: absolute;
-        margin-top: 10%;
+        margin-top: 10.5%;
         margin-left: 60%;
         font-size: 45px;
         font-weight: bold;
@@ -58,10 +59,10 @@
         position: absolute;
         margin-top: 16%;
         margin-left: 60%;
-        margin-right: 6%;
-        font-size: 20px;
-        font-family: 'Quicksand', sans-serif;
-        line-height: 1.5;
+        margin-right: 10%;
+        font-size: 16px;
+        font-family: 'Montserrat', sans-serif;
+        line-height: 1.8;
         letter-spacing: 1px;
         color: black;
 
@@ -75,10 +76,11 @@
         margin-top: 31%;
         margin-left: 60%;
         text-align: center;
-        font-size: 15px;
+        font-size: 13px;
         letter-spacing: 2px;
         line-height: 50px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 550;
         border: none;
         border-radius: 3px;
         cursor: pointer;
@@ -130,25 +132,33 @@
       color: #25d366;
     }
     .s-container{
-        height: 213vh;
+        height: 200vh;
         width: 100vw;
-        background: #abbaab; 
-        background: -webkit-linear-gradient(to left, #ffffff, #abbaab);
-        background: linear-gradient(to left, #ffffff, #abbaab);               
+        background: #8E2DE2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+
+
+            
     }
     .cur-project{
         position: absolute;
         margin-top: 5%;
         margin-left: 16.5%;        
         font-size: 35px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
+        color:  white;
         line-height: 1.2;
         letter-spacing: 5px;
         font-size-adjust: 0.4;
-        font-weight: 800;
+        font-weight: 700;
     }
     .design-2{
         position: absolute;
+        color:  white;
         margin-left: 16.5%;
         margin-top: 8%;
         font-size: 55px;
@@ -156,66 +166,93 @@
     }
     .second-a{
         position: absolute;
+        //border: 1px solid black;
         margin-left: 16.5%;
         margin-top: 18%;
-        height: 45%;
+        height: 42%;
         width: 60%;
     }
     .second-b{
         position: absolute;
+        //border: 1px solid black;
         margin-left: 16.5%;
         margin-top: 45%;
-        height: 45%;
+        height: 42%;
         width: 60%;
     }
     .second-c{
         position: absolute;
+        //border: 1px solid black;
         margin-left: 16.5%;
         margin-top: 72%;
-        height: 45%;
+        height: 42%;
         width: 60%;
     }
     .project-img{
         position: absolute;
-        height: 100%;
-        width: 34%;
+        //border: 1px solid white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        height: 95%;
+        width: 30%;
+    }
+    .img-b{
+        border-radius: 5px;
     }
     .project-details{
         position: absolute;
+        //border: 1px solid black;
         margin-left: 40%;
         height: 100%;
         width: 50%;
     }
     .details-title{
         position: absolute;
-        font-family: 'Roboto', sans-serif;
-        font-weight: bold;
-        letter-spacing: 1px;
-        margin-top: 13%;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 900;
+        letter-spacing: 2px;
+        font-size-adjust: 0.4;
+        font-size: 14px;
+        color:  white;
+        margin-top: 11%;
         height: 10%;
         width: 50%;
     }
     .details-con{
         position: absolute;
-        font-family: 'Quicksand', sans-serif;
+        //border: 1px solid black;
+        font-family: 'Montserrat', sans-serif;
         letter-spacing: 1px;
-        font-size: 15px;
-        line-height: 1.5;
-        margin-top: 23%;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 1.8;
+        color:  white;
+        margin-top: 21%;
         height: 40%;
         width: 100%;
     }
     
     .details-link{
         position: absolute;
-        font-family: 'Roboto', sans-serif;
-        font-size: 12px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 8px;
         font-weight: bold;
         letter-spacing: 1px;
-        margin-top: 56%;
+        color:  white;
+        margin-top: 50%;
         height: 10%;
         width: 50%;
         display: flex;
+        cursor: pointer;
+    }
+    .details-link:hover{
+        color: red;
+    }
+    .ioni{
+        //border: 1px solid black;
+        margin-left: 3%;
+        padding-top: 1.2px;
+        font-size: 8px;
     }
     .t-container{
         height: 50vh;
