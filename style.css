@@ -448,7 +448,7 @@
         width: 50vw;
         font-size: 16px;
         font-family: 'Montserrat', sans-serif;
-        font-weight: bold;
+        font-weight: 900;
         line-height: 30px;
         letter-spacing: 1px;
     }
@@ -466,8 +466,8 @@
         position: relative;
         height: 4vh;
         width: 50vw;
-        margin-top: 0vh;
-        font-weight: bold;
+        margin-top: 1vh;
+        font-weight: 900;
         font-size: 12px;
         line-height: 1.5;
         font-family: 'Montserrat', sans-serif;
