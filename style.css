@@ -322,12 +322,12 @@
     }
     .my-info{
         position: absolute;
-        margin: 80vh 8vh 0 4vh;
+        margin: 79vh 8vh 0 4vh;
         font-size: 14px;
         font-weight: 430;
         word-spacing: 2px;
         font-family: 'Montserrat', sans-serif;
-        line-height: 1.8;
+        line-height: 2;
 
     }
     /* button */
