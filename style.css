@@ -610,5 +610,11 @@
     }
     .f-ref{
         text-decoration: none;
+        color: #0078FF; 
+    }
+    .l-container{
+        height: 20vh;
+        width: 100%;
+        background-color: #f5f6f6;
     }
 }
