@@ -568,7 +568,7 @@
     }
     .f-intro{
         position: absolute;
-        margin-left: 8.8vh;
+        margin-left: 10vh;
         margin-top: 4vh;
         font-size: 25px;
         font-family: 'Montserrat', sans-serif;
@@ -593,7 +593,7 @@
     }
     .f-button{
         position: absolute;
-        margin-left: 8.5vh;
+        margin-left: 8.7vh;
         margin-top: 28vh;
         display: block;
         color: #0078FF;
