@@ -296,6 +296,20 @@
         padding: 0px;
         margin: 0px;
     }
+    .construction{
+        height: 4vh;
+        width: 100%;
+        background-color: #000;
+    }
+    .marq{
+        color: white;
+        font-family: monospace;
+        padding-top: 0.8vh;
+        font-size: 2vh;
+        font-weight: bold;
+        letter-spacing: 10px;
+        text-transform: uppercase;
+    }
     .m-container{
         height: 118vh;
         width: 100vw;
@@ -509,11 +523,12 @@
         font-weight: 900;
         font-size: 12px;
         line-height: 1.5;
+        color: #000;
         font-family: 'Montserrat', sans-serif;
         cursor: pointer;
     }
     .link-ref{
-        color: #fff;
+        color: #000;
         text-decoration: none;
     }
     .link-ref:hover{
