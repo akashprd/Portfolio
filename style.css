@@ -568,7 +568,7 @@
     }
     .f-intro{
         position: absolute;
-        margin-left: 8vh;
+        margin-left: 8.2vh;
         margin-top: 4vh;
         margin-right: 4vh;
         font-size: 25px;
@@ -594,7 +594,7 @@
     }
     .f-button{
         position: absolute;
-        margin-left: 8vh;
+        margin-left: 8.2vh;
         margin-top: 28vh;
         display: block;
         color: #0078FF;
