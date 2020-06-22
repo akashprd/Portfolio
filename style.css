@@ -568,7 +568,7 @@
     }
     .f-intro{
         position: absolute;
-        margin-left: 3vh;
+        margin-left: 8vh;
         margin-top: 4vh;
         margin-right: 4vh;
         font-size: 25px;
@@ -605,8 +605,11 @@
         border-radius: 5px;
         text-align: center;
         font-family: 'Montserrat', sans-serif;
-        line-height: 3.3;
+        line-height: 3.5;
         font-size: 12px;
         font-weight: bold;
+    }
+    .f-ref{
+        text-decoration: none;
     }
 }
