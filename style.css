@@ -3,16 +3,30 @@
         margin: 0;
         padding: 0;
     }
+    .construction{
+        height: 5vh;
+        width: 100%;
+        background-color: #000;
+    }
     .m-container{
         height: 100vh;
         width: 100vw;
         background-color: white;
     }
+    .marq{
+        color: white;
+        font-family: monospace;
+        padding-top: 1vh;
+        font-size: 2.5vh;
+        font-weight: bold;
+        letter-spacing: 10px;
+        text-transform: uppercase;
+    }
     /* .main-a{
 
     } */
     .blur-bg{
-        width: 51%;
+        width: 50%;
         height: 70%;
         background-color: lightgray;
         opacity: 0.3;
@@ -61,9 +75,10 @@
         margin-left: 60%;
         margin-right: 10%;
         font-size: 16px;
+        font-weight: 450;
         font-family: 'Montserrat', sans-serif;
         line-height: 1.8;
-        letter-spacing: 1px;
+        letter-spacing: 2px;
         color: black;
 
     }
@@ -132,11 +147,9 @@
       color: #25d366;
     }
     .s-container{
-        height: 200vh;
+        height: 190vh;
         width: 100vw;
-        background: #8E2DE2;
-        background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
-        background: linear-gradient(to right, #4A00E0, #8E2DE2);            
+        background-color: #f5f6f6;          
     }
     .cur-project{
         position: absolute;
@@ -144,7 +157,7 @@
         margin-left: 16.5%;        
         font-size: 35px;
         font-family: 'Montserrat', sans-serif;
-        color:  white;
+        color:  #000;
         line-height: 1.2;
         letter-spacing: 5px;
         font-size-adjust: 0.4;
@@ -152,50 +165,45 @@
     }
     .design-2{
         position: absolute;
-        color:  white;
+        color:  orangered;
         margin-left: 16.5%;
-        margin-top: 8%;
-        font-size: 55px;
+        margin-top: 6%;
+        font-size: 75px;
         font-weight: 900;
     }
-    .second-a{
+    .second-a,.third-a{
         position: absolute;
-        //border: 1px solid black;
         margin-left: 16.5%;
         margin-top: 18%;
         height: 42%;
         width: 60%;
     }
-    .second-b{
+    .second-b,.third-b{
         position: absolute;
-        //border: 1px solid black;
         margin-left: 16.5%;
-        margin-top: 45%;
+        margin-top: 42%;
         height: 42%;
         width: 60%;
     }
-    .second-c{
+    .second-c,.third-c{
         position: absolute;
-        //border: 1px solid black;
         margin-left: 16.5%;
-        margin-top: 72%;
+        margin-top: 66%;
         height: 42%;
         width: 60%;
     }
     .project-img{
         position: absolute;
-        //border: 1px solid white;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
         border-radius: 5px;
-        height: 95%;
-        width: 30%;
+        height: 85%;
+        width: 28%;
     }
     .img-b{
         border-radius: 5px;
     }
     .project-details{
         position: absolute;
-        //border: 1px solid black;
         margin-left: 40%;
         height: 100%;
         width: 50%;
@@ -203,25 +211,24 @@
     .details-title{
         position: absolute;
         font-family: 'Montserrat', sans-serif;
-        font-weight: 900;
+        font-weight: bold;
         letter-spacing: 2px;
         font-size-adjust: 0.4;
         font-size: 14px;
-        color:  white;
-        margin-top: 11%;
+        color:  #000;
+        margin-top: 9%;
         height: 10%;
         width: 50%;
     }
     .details-con{
         position: absolute;
-        //border: 1px solid black;
         font-family: 'Montserrat', sans-serif;
         letter-spacing: 1px;
         font-size: 13px;
-        font-weight: 400;
+        font-weight: 500;
         line-height: 1.8;
-        color:  white;
-        margin-top: 21%;
+        color:  #000;
+        margin-top: 18%;
         height: 40%;
         width: 100%;
     }
@@ -229,35 +236,55 @@
     .details-link{
         position: absolute;
         font-family: 'Montserrat', sans-serif;
-        font-size: 8px;
-        font-weight: bold;
+        font-size: 9px;
+        font-weight: 700;
         letter-spacing: 1px;
-        color:  white;
-        margin-top: 50%;
+        color:  #000;
+        margin-top: 46%;
         height: 10%;
         width: 50%;
         display: flex;
         cursor: pointer;
     }
+    .link-ref{
+        color: #000;
+        text-decoration: none;
+    }
+    .link-ref:hover{
+        color: red;
+    }
     .details-link:hover{
         color: red;
     }
     .ioni{
-        //border: 1px solid black;
         margin-left: 3%;
         padding-top: 1.2px;
         font-size: 8px;
     }
     .t-container{
-        height: 50vh;
+        height: 190vh;
         width: 100%;
         background-color: white;
     }
+    
     .f-container{
         height: 30vh;
         width: 100%;
         background-color: black;
-    }    
+    } 
+    .good-res{
+        position: absolute;
+        margin-top: 5%;
+        margin-left: 16.5%;        
+        font-size: 35px;
+        font-family: 'Montserrat', sans-serif;
+        color:  #000;
+        line-height: 1.2;
+        letter-spacing: 5px;
+        font-size-adjust: 0.4;
+        font-weight: 700;
+    }
+       
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px){
@@ -274,9 +301,9 @@
         width: 100vw;
         background-color: white;
     }
-    .main-a{
+    /* .main-a{
         
-    }
+    } */
     .blur-bg{
         height: 50vh;
         width: 100vw;
@@ -484,6 +511,13 @@
         line-height: 1.5;
         font-family: 'Montserrat', sans-serif;
         cursor: pointer;
+    }
+    .link-ref{
+        color: #fff;
+        text-decoration: none;
+    }
+    .link-ref:hover{
+        color: red;
     }
     .details-link:hover{
         color: orangered;
