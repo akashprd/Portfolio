@@ -562,8 +562,51 @@
         line-height: 1.2;
     }
     .f-container{
-        height: 25vh;
+        height: 40vh;
         width: 100vw;
         background-color: #000;
+    }
+    .f-intro{
+        position: absolute;
+        margin-left: 3vh;
+        margin-top: 4vh;
+        margin-right: 4vh;
+        font-size: 25px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        letter-spacing: 1px;
+        color: #fff;
+        text-align: center;
+        line-height: 1.5;
+    }
+    .f-info{
+        position: absolute;
+        margin-left: 4vh;
+        margin-top: 15vh;
+        margin-right: 4vh;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        color: #fff;
+        text-align: center;
+        line-height: 1.8;
+        letter-spacing: 1px;
+    }
+    .f-button{
+        position: absolute;
+        margin-left: 8.5vh;
+        margin-top: 28vh;
+        display: block;
+        color: #0078FF;
+        height: 5vh;
+        width: 60%;
+        background-color: #fff;
+        border: 2px solid #0078FF;
+        border-radius: 5px;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        line-height: 3.3;
+        font-size: 12px;
+        font-weight: bold;
     }
 }
