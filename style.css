@@ -146,6 +146,22 @@
       transition: all .35s;
       color: #25d366;
     }
+  .linkedin-icon{
+        margin-right: 7px;
+        color: black;
+    }
+    .linkedin-icon:hover{
+        transition: all .35s;
+        color:  #0e76a8;
+    }
+  .github-icon{
+        margin-right: 7px;
+        color: black;
+    }
+    .github-icon:hover{
+        transition: all .35s;
+        color: #964B00;
+    }
     .s-container{
         height: 190vh;
         width: 100vw;
@@ -328,6 +344,34 @@
     text-decoration: none;
     color: #0078FF;
   }
+  .l-container{
+        height: 10vh;
+        width: 100%;
+        background-color: #fff;
+    }
+    .icons-l{
+        position: absolute;
+        display: flex;
+        margin-left: 15vh;
+        margin-top: 3.2vh;
+        font-size: 2vw;
+        
+    }
+    .my-cpy{
+        position: absolute;
+        display: block;
+        height: 3vh;
+        width: 35vw;
+        margin-left: 55vw;
+        margin-top: 3.2vh;
+        background-color: #fff;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        text-align: right;
+        line-height: 3.2;
+        letter-spacing: 2px;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px){
