@@ -301,7 +301,7 @@
   .f-info{
     position: absolute;
     margin-top: 110px;
-    left: 24%;
+    left: 26%;
     font-size: 1em;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -313,7 +313,7 @@
         margin-top: 160px;
         display: block;
         color: #0078FF;
-        height: 6vh;
+        height: 5vh;
         width: 18%;
         background-color:             #fff;
         border: 2px solid             #0078FF;
@@ -321,7 +321,7 @@
         text-align: center;
         font-family: 'Montserrat', sans-serif;
         line-height: 3.5;
-        font-size: 14px;
+        font-size: 15px;
         font-weight: bold;
   }
   .f-ref{
