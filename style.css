@@ -293,7 +293,7 @@
       color: #fff;
       margin-top: 50px;
       text-align: center;
-      left: 36%;
+      left: 40%;
       font-size: 2em;
       font-family: 'Montserrat', sans-serif;
       font-weight: bold;
@@ -301,7 +301,7 @@
   .f-info{
     position: absolute;
     margin-top: 110px;
-    left: 20%;
+    left: 24%;
     font-size: 1em;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -309,19 +309,19 @@
   }
   .f-button{
     position: absolute;
-        left: 38%;
+        left: 41%;
         margin-top: 160px;
         display: block;
         color: #0078FF;
         height: 6vh;
-        width: 20%;
+        width: 18%;
         background-color:             #fff;
         border: 2px solid             #0078FF;
         border-radius: 10px;
         text-align: center;
         font-family: 'Montserrat', sans-serif;
         line-height: 3.5;
-        font-size: 15px;
+        font-size: 14px;
         font-weight: bold;
   }
   .f-ref{
